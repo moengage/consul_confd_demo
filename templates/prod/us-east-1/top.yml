@@ -1,0 +1,10 @@
+commons:
+  - /consul_confd_demo/templates/prod/us-east-1/confd/configurator.py
+  - /consul_confd_demo/templates/prod/us-east-1/confd/jobs.py
+
+business_unit:
+  - function0:
+    - /consul_confd_demo/templates/prod/us-east-1/service0/test.conf
+    - /consul_confd_demo/templates/prod/us-east-1/service1/settings.py
+  - function1:
+    - /consul_confd_demo/templates/prod/us-east-1/service0/test.conf
